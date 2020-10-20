@@ -65,25 +65,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-20 00:24:44</sys_created_on>
         <sys_id>d741e0982f442010a6f5fd1df699b6e6</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Notes Body</sys_name>
         <sys_package display_value="CreateNotes" source="x_snc_createnotes">df5fd9a5090232007f44e1046c8ff69f</sys_package>
         <sys_policy/>
         <sys_scope display_value="CreateNotes">df5fd9a5090232007f44e1046c8ff69f</sys_scope>
         <sys_update_name>sp_widget_d741e0982f442010a6f5fd1df699b6e6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-20 00:50:59</sys_updated_on>
-        <template><![CDATA[<div class="panel panel-default" ng-show="c.data.noteID">
-  <div class="panel-heading clearfix">
-    <div class="row">
-      <div class="col-md-12">
-        <input class="form-control" id="note-title" ng-model="c.data.title" ng-change="c.updateNote('title')" ng-model-options="{debounce: 1000}"/>
-      </div>
-    </div>
-  </div>
-  <div class="panel-body">
-    <textarea class="form-control" id="note-body" ng-model="c.data.note" ng-change="c.updateNote('body')" ng-model-options="{debounce: 1000}" ></textarea>
-  </div>
-</div>]]></template>
+        <sys_updated_on>2020-10-20 01:26:51</sys_updated_on>
+        <template><![CDATA[<delete-button-confirm></delete-button-confirm>>]]></template>
     </sp_widget>
 </record_update>
